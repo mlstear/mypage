@@ -1,0 +1,320 @@
+<!-- スライダーはプラグイン無し -->
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.Reo portfolio site</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/e739366281.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper" id="top">
+        <header>
+            <div class="header-left">
+                <a class="scroll-btn" href="#top"><i class="fab fa-phoenix-framework"></i></a>
+            </div>
+            <div class="header-right">
+                <ul>
+                    <li>
+                        <a class="scroll-btn" href="#skills">skills</a>
+                    </li>
+                    <li>
+                        <a class="scroll-btn" href="#works">works</a>
+                    </li>
+                    <li>
+                        <a class="scroll-btn" href="#profile">profile</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="toggle-btn">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="third"></div>
+            </div>
+        </header>
+
+        <div class="nav-modal-wrapper">
+                <ul>
+                    <li>
+                        <a class="scroll-btn" href="#skills">skills</a>
+                    </li>
+                    <li>
+                        <a class="scroll-btn" href="#works">works</a>
+                    </li>
+                    <li>
+                        <a class="scroll-btn" href="#profile">profile</a>
+                    </li>
+                </ul>
+        </div>
+        
+        <div class="top-wrapper">
+            <div class="top-text">
+                <h1>M.Reo's Portfolio</h1>
+                <p>Welcome to my page</p>
+                <p class="spin">⇓</p>
+            </div>
+
+            <video src="image/beach.mp4" muted autoplay playsinline loop></video>
+        </div>
+        <!-- top-wrapper end-->
+
+        <div class="title" id="skills">
+            <div class="container">
+                <h1>Skills</h1>
+            </div>
+        </div>
+        <!-- title end-->
+
+        <div class="skills-wrapper">
+            <div class="container">
+                <div class="skill-subtitle">
+                    <h2>フロントエンド</h2>
+                </div>
+                <div class="skills">
+                    <div class="skill">
+                        <div class="skill-icon html">
+                            <i class="fab fa-html5 icon"></i>
+                            <p>HTML</p>
+                        </div>
+                        <div class="skill-text">
+                            <p>HTMLとは、”Hyper Text Markup Language”の略で、Webページを作るための基本的なマークアップ言語のひとつです。</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon css">
+                            <i class="fab fa-css3-alt icon"></i>
+                            <p>CSS</p>
+                        </div>
+                        <div class="skill-text">
+                            <p>CSSとは、“Cascading Style Sheets”の略で、文書構造にデザインを施すなど、Webページにスタイルを指定するための言語です。</p>
+                        </div>
+                    </div>
+                    <div class="skill jq">
+                        <div class="skill-icon jquery">
+                            <i class="fab fa-js-square icon"></i>
+                            <p>jQuery</p>
+                        </div>
+                        <div class="skill-text">
+                            <p>jQueryとは、JavaScriptライブラリの一種です。より少ないコードで簡単に動的なwebページを作成することができます。</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="skill-subtitle">
+                    <h2>バックエンド</h2>
+                </div>
+                <div class="skills">
+                    <div class="skill">
+                        <div class="skill-icon java">
+                            <i class="fab fa-java icon"></i>
+                            <p>Java</p>
+                        </div>
+                        <div class="skill-text">
+                            <p>Javaとは、OSなどの環境に依存せず使えるプログラミング言語で、世界的に高いシェアを獲得しています。</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon sql">
+                            <i class="fas fa-database icon"></i>
+                            <p>MySQL</p>
+                        </div>
+                        <div class="skill-text">
+                            <p>MySQLとは、世界でもっとも利用されている「データベース管理システム」です。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- skills end-->
+
+        <div class="title" id="works">
+            <div class="container">
+                <h1>Works</h1>
+            </div>
+        </div>
+        <!-- title end-->
+
+        <div class="works-wrapper">
+            <div class="container">
+                <div class="works">
+                    <div class="arrow-area">
+                        <i class="fas fa-chevron-left arrow back disable"></i>
+                        <i class="fas fa-chevron-right arrow next"></i>
+                        <div class="slider">
+                            <div class="works-area position01">
+                                <div class="works-box air">
+                                    <div class="work-mask">
+                                        <div class="works-text">
+                                            <h2>LPサイト　模写作成１</h2>
+                                            <p class="mask-original-link">「<a href="https://www.airbnb.jp/host/homes?_set_bev_on_new_domain=1572917376_Zjk1MzU0NmY1ZDZm">Airbnb</a>」サイトの模写作成</p>
+                                            <p class="link-text-change">「Airbnb」サイトの模写作成</p>
+                                            <p class="use-skill">HTML CSS jQuery (レスポンシブ対応)</p>
+                                            <p>※BASIC認証</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="works-box write">
+                                    <div class="work-mask">
+                                        <div class="works-text">
+                                            <h2>LPサイト　模写作成２</h2>
+                                            <p class="mask-original-link">「<a href="http://demo.themegraphy.com/write-ja/">Write</a>」サイトの模写作成</p>
+                                            <p class="link-text-change">「Write」サイトの模写作成</p>
+                                            <p class="use-skill">HTML CSS jQuery (レスポンシブ対応)</p>
+                                            <p>※BASIC認証</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="works-box manga">
+                                        <div class="work-mask">
+                                            <div class="works-text">
+                                                <h2>Webアプリケーション</h2>
+                                                <p class="use-skill">HTML CSS jQuery Java(JSP/Servlet) MySQL</p>
+                                                <p class="explain">個人でアカウントを作成し、好きな漫画についてレビューを投稿したり、他人のレビューを見ることができるサイト</p>
+                                                <p>※オリジナル制作</p>
+                                                <div class="pageLink">
+                                                    <a href="https://servlet-manga-review-mlstear.herokuapp.com/">ページリンク</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="works-thumbnails">
+                        <div class="thumbnail-area">
+                            <div class="thumbnail air select" id="thu1">
+                                <div class="bg-mask">
+                                    <div class="thumbnail-text">
+                                        <p>LPサイト 模写 １</p>
+                                        <p>HTML CSS jQuery</p>
+                                        <a class="mask-original-link" href="https://www.airbnb.jp/host/homes?_set_bev_on_new_domain=1572917376_Zjk1MzU0NmY1ZDZm">※元サイト(リンク)</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumbnail write" id="thu2">
+                                <div class="bg-mask">
+                                    <div class="thumbnail-text">
+                                        <p>LPサイト 模写 ２</p>
+                                        <p>HTML CSS jQuery</p>
+                                        <a class="mask-original-link" href="http://demo.themegraphy.com/write-ja/">※元サイト(リンク)</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumbnail manga" id="thu3">
+                                <div class="bg-mask">
+                                    <div class="thumbnail-text">
+                                        <p>Webアプリ</p>
+                                        <p>HTML CSS jQuery<br>Java MySQL</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="attention">
+                        <p>※BASIC認証</p>
+                        <ul>
+                            <li>ユーザーID　:　reopage</li>
+                            <li>password　:　reopage</li>
+                        </ul>
+                        <p><a class="original-link" href="https://www.airbnb.jp/host/homes?_set_bev_on_new_domain=1572917376_Zjk1MzU0NmY1ZDZm">※Airbnb(元サイトリンク)</a></p>
+                        <p><a class="original-link" href="http://demo.themegraphy.com/write-ja/">※Write(元サイトリンク)</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- works end-->
+
+        <div class="title" id="profile">
+            <div class="container">
+                <h1>Profile</h1>
+            </div>
+        </div>
+        <!-- title end-->
+
+        <div class="profile-wrapper">
+            <div class="container">
+                <div class="profile-image-res">
+                    <img src="image/Me.jpg" alt="My profile-image">
+                </div>
+            </div>
+            <div class="container profiles">
+                <div class="profile-image">
+                    <img src="image/Me.jpg" alt="My profile-image">
+                    <div class="comment">
+                        <dl>
+                            <dt><h2>Comment</h2></dt>
+                            <dd>
+                                 <p>　最後まで本サイトを見て頂きましてありがとうございます。
+                                    私は自身で価値の創造に深く携わりたいと思い、プログラミングを勉強し、このサイトを作成するまでに至りました。</p><br>
+                                    <p>　私はこれまでの人生で人に満足を与えることに喜びとやりがいを感じ、その思いはITエンジニアとしても大切にしていきたいと思っています。
+                                    そして、私は妥協しない向上心が持ち味だと思っており、継続的に自身のスキルアップを目指します。</p><br>
+                                    <p>　これからも、この思いや経験を活かし、より良い価値の創造、人に満足を与えることに挑戦したいと思っています。</p>
+                                </p>
+                            </dd>
+                        </dl>
+                    </div>
+                    
+                </div>
+                <div class="profile-text">
+                    <div class="name">
+                        <dl>
+                            <dt><h2>Name</h2></dt>
+                            <dd>Reo</dd>
+                        </dl>
+                    </div>
+                    <div class="history">
+                        <dl>
+                            <dt><h2>Brief History</h2></dt>
+                            <dd>1994年１月<span>北海道生まれ</span></dd>
+                            <dd>2012年４月<span>国立大学入学(神奈川県)</span></dd>
+                            <dd>2016年４月<span>医療機器メーカー入社 (営業職)</span></dd>
+                            <dd>2020年３月<span>ITエンジニアを目指し退職</span></dd>
+                        </dl>
+                    </div>
+                    <div class="favorite">
+                        <dl>
+                            <dt><h2>Favorite</h2></dt>
+                            <dd>好きな食べ物 : <span>カルボナーラ　オムライス</span></dd>
+                            <dd>好きなスポーツ : <span>卓球　バレーボール</span></dd>
+                            <dd>好きな映画 : <span><q>ショーシャンクの空に</q><q class="ana">アナと雪の女王</ｑ></span></dd>
+                            <dd>好きな言葉 : <span><q>情けは人の為ならず</q></span></dd>
+                        </dl>
+                    </div>
+                    <div class="contact">
+                        <dl>
+                            <dt><h2>Contact</h2></dt>
+                            <dd><i class="fas fa-envelope"></i><span>mail:</span> lavi.mlty@gmail.com</dd>
+                        </dl>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+        <!-- profile end-->
+
+
+        <div id="toTop" class="">
+            <i class="fas fa-angle-double-up"></i>
+        </div>
+
+        <footer>
+            ©　2020　Reo
+        </footer>
+
+        <!-- footer end -->
+    </div>
+    
+    <script src="JS/script.js"></script>
+</body>
+</html>
