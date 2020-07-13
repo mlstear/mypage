@@ -3,19 +3,18 @@ body {
   
 }
 
+
+
 .wrapper::before {
     content: "";
     display: block;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: -1;
     width: 100%;
     height: 100vh;
     background-image: url(../image/sea3.jpg);
-    background-attachment: fixed;
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     z-index: -20;
 }
@@ -31,6 +30,8 @@ ul {
 
 p {
     cursor: default;
+    -ms-line-height: 26px;
+    line-height: 26px;
 }
 
 
@@ -357,13 +358,13 @@ video {
 }
 
 .skill-text p {
-    color: #ffffff75;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 1.125em;
     transition: .5s;
 }
 
 p.text-active {
-    color: #ffffffde;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 /* skills end */
@@ -399,7 +400,7 @@ p.text-active {
 
 .works .fas {
     font-size: 3em;
-    color: #ffffff96;
+    color: rgba(255, 255, 255, 0.6);
     cursor: pointer;
     transition: .3s;
     z-index: 20;
@@ -456,9 +457,11 @@ p.text-active {
     width: 350px;
     position: absolute;
     top: 50%;
-    left: 51%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
+
 
 .works-text h2,
 .works-text p {
@@ -466,6 +469,10 @@ p.text-active {
     line-height: 32px;
     font-family: serif;
     font-weight: 600;
+}
+
+.works-text h2{
+    margin-bottom: 10px;
 }
 
 .use-skill {
@@ -483,11 +490,16 @@ p.text-active {
 
 .pageLink {
     text-align: center;
-    padding-top: 15px;
+    padding-top: 30px;
+}
+
+.pageLink a{
+    font-size: 1.8em;
 }
 
 .works-text p.explain {
     margin: 20px 0;
+    text-align: justify;
 }
 
 .link-text-change {
@@ -735,7 +747,7 @@ p.text-active {
 
 #toTop {
     display: none;
-    background-color: #ffffff56;
+    background-color: rgba(255, 255, 255, 0.3);
     width: 55px;
     height: 55px;
     text-align: center;
@@ -744,10 +756,11 @@ p.text-active {
     bottom: 20px;
     right: 20px;
     cursor: pointer;
+    transition: all .5s;
 }
 
 #toTop:hover {
-    background-color: #ffffff8e;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 .toTopMove {
@@ -767,7 +780,7 @@ p.text-active {
 
 footer {
     height: 80px;
-    background: linear-gradient(#07245ad9, #020e1ed4);
+    background: linear-gradient(rgba(7,36,90,0.8), rgba(2,14,30,0.7));
     text-align: center;
     line-height: 80px;
     color: rgba(255, 255, 255, 0.726);

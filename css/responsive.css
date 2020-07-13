@@ -400,6 +400,10 @@
         font-size: 1.1em;
     }
 
+    .works-text p.explain {
+        text-align: center;
+    }
+
     .position02 {
         transform: translateX(-280px);
     }
@@ -443,12 +447,10 @@
     }
 
     .slider {
-       
         height: 280px;
     }
 
     .arrow-area {
-       
         height: 280px;
     }
 
@@ -464,12 +466,12 @@
 
 
     .works-box {
-       
         height: 280px;
     }
 
     .works-text {
         width: 200px;
+        left: 48%;
     }
 
     .works-text h2 {
