@@ -616,6 +616,13 @@ p.text-active {
     text-decoration: underline;
 }
 
+.git-link{
+    color: rgba(248, 248, 248, 0.8);
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
 /* works end */
 /* works end */
 /* works end */
